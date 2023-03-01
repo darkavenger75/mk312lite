@@ -34,6 +34,7 @@ In addition, you will have to order
 
 ## Firmware
 
-
+The firmware has not been modified, for instructions see the "firmware" folder. 
 
 ## Case
+
