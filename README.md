@@ -21,7 +21,7 @@ Assembly
 
 ## Parts ordering information
 
-You will in addition require all pin-through-hole parts, see full BOM (eagle_cam_job_files/mk312lite_V2_full_BOM.csv). Most parts you can order from Mouser. 
+You will in addition require all pin-through-hole parts, see full BOM (eagle_cam_job_files/mk312lite_V2_full_BOM.csv). Most parts you can order from Mouser. Do not forget the buttom covers and knobs for the potentiometers. 
 In addition, you will have to order
 - 2 pcs. PJ-301C XKB 1/8" phone connectors (e.g. eBay)
 - A 12V 2Ah LiFePo4 4-cell battery with BMS and connector matching the one you used on the board. I got mine from Eremit in Germany. You can use a 3-cell LiPo battery pack instead (there is a LDO voltage regulator on the 9V rail), but the R5/R6 voltage divider must be adjusted to avoid incorrect low battery warning/shutdown.
