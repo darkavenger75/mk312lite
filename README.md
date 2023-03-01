@@ -31,6 +31,7 @@ In addition, you will have to order
 
 - The two transformers, battery connector and polyfuse go to the bottom of the PCB. 
 - Nothing special regarding the assembly of the top side.
+- Ensure polarity of your battery pack and charger is correct, or things may get fried. 
 
 ## Firmware
 
@@ -38,3 +39,5 @@ The firmware has not been modified, for instructions see the "firmware" folder.
 
 ## Case
 
+Front panel still in design. Will go directly on top of the PCB, the battery pack below. Bottom closed with plain aluminum panel.  
+You will also require some simple 3D printed (or milled) plastic profiles to hold everything together. Details coming!
