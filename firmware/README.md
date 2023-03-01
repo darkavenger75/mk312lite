@@ -5,3 +5,9 @@
    enable this. 
    - LOW FUSE: 0xFF 
    - HIGH FUSE: 0xDC
+   
+   avrdude -c usbasp-clone -p m16 -U lfuse:w:0xFF:m -U hfuse:w:0xDC:m
+   
+2. Flash any of the two firmware files, e.g. by
+
+   avrdude -c usbasp-clone -p m16 -U "flash:w:HelloFriend.bin"
