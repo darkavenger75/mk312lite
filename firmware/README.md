@@ -1,10 +1,6 @@
 # MK312-BT Firmware
 
-1. We are using an external 8mhz crystal instead of the internal RC
-   oscillator that the original uses. We need to set the fuses to
-   enable this. 
-   - LOW FUSE: 0xFF 
-   - HIGH FUSE: 0xDC
+1. Set fuses for external 8 MHz crystal:
    
    avrdude -c usbasp-clone -p m16 -U lfuse:w:0xFF:m -U hfuse:w:0xDC:m
    
