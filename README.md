@@ -6,7 +6,7 @@ A smaller, light and cheaper version of the mk-312 with most of its functionalit
 
 - LiFePO4 instead of Pb battery
 - 90 x 120 mm single PCB design
-- Most components SMT on bottom side
+- Most components SMT on bottom side (JLCPCB can do most of the work)
 - No inputs, though
 
 ## Board ordering instructions
@@ -27,8 +27,13 @@ In addition, you will have to order
 - A 12V 2Ah LiFePo4 4-cell battery with BMS. I got mine from Eremit in Germany. You can use a 3-cell LiPo battery pack instead (there is a LDO voltage regulator on the 9V rail), but the R5/R6 voltage divider must be adjusted to avoid incorrect low battery warning/shutdown.
 - A matching external CHARGER for your battery pack with 5.5/2.1 mm connector, center positive. Do NOT just connect a power supply without current limiter.   
 
-## Board Assembly Instructions
+## Board assembly Instructions
+
+- The two transformers, battery connector and polyfuse go to the bottom of the PCB. 
+- Nothing special regarding the assembly of the top side.
 
 ## Firmware
+
+
 
 ## Case
