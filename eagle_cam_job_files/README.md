@@ -8,4 +8,5 @@ Pick-and-place:        mk312lite_V2_bottom_cpl.csv
 
 Make sure to check placement/orientation of SMT components when ordering an already assembled board!
 
-Full BOM:              mk312lite_V2_full_BOM.csv
+Full BOM:              mk312lite_V2_full_BOM.csv 
+Anything that has an entry in the "Description" column is pin-through-hole and has to be ordered separately. 
