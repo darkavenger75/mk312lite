@@ -16,7 +16,7 @@ PCB
 
 Assembly
 - Economic, Bottom side, as many PCBs as you wish (minimum 2). "Confirm Parts Placement" recommended. 
-- Automatic selection of parts after uploading BOM and CPL workes well, but better check for errors. 
+- Automatic selection of parts after uploading BOM and CPL worked well, but better check for errors. 
 - Check part placement and rotation, esp. ATmega, MOSFETs and 5V DC/DC converter.  
 
 ## Parts ordering information
