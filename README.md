@@ -1,8 +1,10 @@
 # MK-312 lite
 
-## Parts ordering information
+## Introduction
 
 ## Board ordering instructions
+
+## Parts ordering information
 
 ## Board Assembly Instructions
 
