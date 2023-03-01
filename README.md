@@ -11,8 +11,7 @@ A smaller, light and cheaper version of the mk-312 with most of its functionalit
 
 ## Board ordering instructions
 
-PCB: 
-- 
+PCB: default settings by JLCPCB work fine. Feel free to choose different color, etc. 
 
 ## Parts ordering information
 
