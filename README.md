@@ -1,4 +1,4 @@
-# MK-312 lite
+# mk-312 lite
 
 ## Introduction
 
