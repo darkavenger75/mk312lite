@@ -2,7 +2,7 @@
 
 ## Introduction
 
-A smaller, light and cheaper version of the mk-312 with most of its functionality
+A smaller, lighter, cheaper and easier to assemble version of the mk-312 with most of its functionality
 
 - LiFePO4 instead of Pb battery
 - 90 x 120 mm single PCB design
