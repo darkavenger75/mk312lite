@@ -37,8 +37,8 @@ LED_CH_A;OUTPUT A;LED3MM;LED3MM;LED
 LED_CH_B;OUTPUT B;LED3MM;LED3MM;LED
 LED_POWER;POWER;LED3MM;LED3MM;LED
 LEFT;LEFT/DOWN;DTE6K;DTE6K;ITT SWITCH, buttom cover: BTND610F
-LEVEL_A;RK09L1140A65 10k;9MM_SNAP-IN_POT_CHASSIS;9MM_SNAP-IN_POT;9mm vertical snap-in pot, Alpha / Panasonic style, knob BA761
-LEVEL_B;RK09L1140A65 10k;9MM_SNAP-IN_POT_CHASSIS;9MM_SNAP-IN_POT;9mm vertical snap-in pot, Alpha / Panasonic style, knob BA761
+LEVEL_A;RK09L1140A2U 10k;9MM_SNAP-IN_POT_CHASSIS;9MM_SNAP-IN_POT;9mm vertical snap-in pot, Alpha / Panasonic style, knob BA761
+LEVEL_B;RK09L1140A2U 10k;9MM_SNAP-IN_POT_CHASSIS;9MM_SNAP-IN_POT;9mm vertical snap-in pot, Alpha / Panasonic style, knob BA761
 MENU;MENU;DTE6K;DTE6K;ITT SWITCH, buttom cover: BTND600F
 MULTI;RK09L114001E 10k;9MM_SNAP-IN_POT_CHASSIS;9MM_SNAP-IN_POT;9mm vertical snap-in pot, Alpha / Panasonic style, with a connection to the metal chassis for grounding
 OK;OK;DTE6K;DTE6K;ITT SWITCH, buttom cover: BTND600F
