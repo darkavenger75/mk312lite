@@ -6,7 +6,7 @@ A smaller, lighter, cheaper and easier to assemble version of the mk-312 with mo
 
 - LiFePO4 instead of Pb battery
 - 90 x 120 mm single PCB design
-- Most components SMT on bottom side (JLCPCB can do most of the work)
+- Most components SMT (JLCPCB will do most of the work)
 - No inputs, though
 
 ## Board ordering instructions
