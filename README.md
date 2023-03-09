@@ -44,5 +44,5 @@ The firmware has not been modified, for instructions see the "firmware" folder.
 ## Case
 
 The front panel goes directly on top of the PCB. Use washers on the pots to level the front panel as required.  
-Bottom closed with plain aluminum panel.  
-You will also require some simple 3D printed (or milled) plastic profiles to hold everything together. Details coming!
+Bottom closes with plain aluminum panel.  
+Plastic rails with slots hold the whole thing together. Details will be provided later.
