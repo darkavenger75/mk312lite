@@ -30,7 +30,7 @@ In addition, you will have to order
 ## Board assembly Instructions
 
 - The two transformers, battery connector and polyfuse go to the bottom of the PCB (or the front panel will not fit).
-- Best shorten the spindels of the pots beforehand, if you bought the 20 mm version, and remove the taps on them. 
+- Best shorten the spindels of the pots beforehand, if you bought the 20 mm version. 
 - Nothing special regarding the assembly of the top side.
 - Ensure polarity of your battery pack and charger is correct, or things may get fried. 
 
