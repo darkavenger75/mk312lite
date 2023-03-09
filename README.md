@@ -14,6 +14,9 @@ A smaller, lighter, cheaper and easier to assemble version of the mk-312 with mo
 PCB
 - Default settings by JLCPCB work fine. Feel free to choose different color, etc. Lead-free recommended for the sake of the environment.
 
+Front panel
+- 1.2 mm aluminium, black or white. 
+
 Assembly
 - Economic, Bottom side, as many PCBs as you wish (minimum 2). "Confirm Parts Placement" recommended. 
 - Automatic selection of parts after uploading BOM and CPL worked well, but better check for errors. 
@@ -40,5 +43,6 @@ The firmware has not been modified, for instructions see the "firmware" folder.
 
 ## Case
 
-Front panel still in design. Will go directly on top of the PCB, the battery pack below. Bottom closed with plain aluminum panel.  
+The front panel goes directly on top of the PCB. Use washers on the pots to level the front panel as required.  
+Bottom closed with plain aluminum panel.  
 You will also require some simple 3D printed (or milled) plastic profiles to hold everything together. Details coming!
