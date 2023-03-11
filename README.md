@@ -45,4 +45,4 @@ The firmware has not been modified, for instructions see the "firmware" folder.
 
 The front panel goes directly on top of the PCB. Use washers on the pots to level the front panel as required.  
 Bottom closes with plain aluminum panel.  
-Plastic rails with slots hold the whole thing together. Details will be provided later.
+Plastic rails with slots hold the whole thing together, please find a makeshift design under "images". 
