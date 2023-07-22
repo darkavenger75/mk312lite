@@ -45,4 +45,4 @@ The firmware has not been modified, for instructions see the "firmware" folder.
 
 The front panel goes directly on top of the PCB. Use washers on the pots to level the front panel as required.  
 Bottom closes with plain aluminum panel.  
-A simple 3D printed case - two half which close by pins or headless screws - can be found in the "case" directory. 
+A simple 3D printed case - two halves which close by 4 pins or headless screws - can be found in the "case" directory. 
