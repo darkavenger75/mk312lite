@@ -4,7 +4,7 @@ Gerber file:           JLC_gerber.zip
 
 BOM, bottom, SMT only: JLC_BOM.csv
 
-Pick-and-place:        JLC_CPT.csv
+Pick-and-place:        JLC_CPL.csv
 
 Make sure to check placement/orientation of SMT components when ordering an already assembled board!
 
