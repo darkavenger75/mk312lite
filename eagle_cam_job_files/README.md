@@ -1,10 +1,10 @@
 Files for PCB production and SMT assembly by JLCPCB 
 
-Gerber file:           mk312lite_V2_2023-02-07.zip
+Gerber file:           JLC_gerber.zip
 
-BOM, bottom, SMT only: mk312lite_V2_bottom_bom.csv
+BOM, bottom, SMT only: JLC_BOM.csv
 
-Pick-and-place:        mk312lite_V2_bottom_cpl.csv
+Pick-and-place:        JLC_CPT.csv
 
 Make sure to check placement/orientation of SMT components when ordering an already assembled board!
 
