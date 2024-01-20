@@ -18,7 +18,7 @@ Front panel
 - 1.2 mm aluminium, black or white. 
 
 Assembly
-- Economic, Bottom side, as many PCBs as you wish (minimum 2). "Confirm Parts Placement" recommended. 
+- Economic, Bottom side, as many PCBs as you wish. "Confirm Parts Placement" recommended. 
 - Automatic selection of parts after uploading BOM and CPL worked well, but better check for errors. 
 - Check part placement and rotation, esp. ATmega, transistors and 5V DC/DC converter (K7805).  
 
