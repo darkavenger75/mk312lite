@@ -3327,70 +3327,6 @@ http://www.mouser.com/catalog/specsheets/164267.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="jumper">
-<description>&lt;b&gt;Jumpers&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="JP1">
-<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
-<wire x1="-1.016" y1="0" x2="-1.27" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="0" x2="-1.27" y2="-0.254" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0" x2="1.27" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0" x2="1.27" y2="-0.254" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-0.254" x2="1.27" y2="-2.286" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="-2.54" x2="1.27" y2="-2.286" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="2.286" x2="1.016" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="2.286" x2="1.27" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="2.54" x2="-1.016" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="2.286" x2="-1.016" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="2.286" x2="-1.27" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-0.254" x2="-1.27" y2="-2.286" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="-2.54" x2="-1.27" y2="-2.286" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="-2.54" x2="1.016" y2="-2.54" width="0.1524" layer="21"/>
-<pad name="1" x="0" y="-1.27" drill="0.9144" shape="long"/>
-<pad name="2" x="0" y="1.27" drill="0.9144" shape="long"/>
-<text x="-1.651" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="2.921" y="-2.54" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
-<rectangle x1="-0.3048" y1="0.9652" x2="0.3048" y2="1.5748" layer="51"/>
-<rectangle x1="-0.3048" y1="-1.5748" x2="0.3048" y2="-0.9652" layer="51"/>
-</package>
-</packages>
-<symbols>
-<symbol name="JP2E">
-<wire x1="0" y1="0" x2="0" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.4064" layer="94"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="1.27" width="0.4064" layer="94"/>
-<wire x1="-0.635" y1="0" x2="3.175" y2="0" width="0.4064" layer="94"/>
-<wire x1="3.175" y1="0" x2="3.175" y2="0.635" width="0.4064" layer="94"/>
-<wire x1="3.175" y1="0.635" x2="-0.635" y2="0.635" width="0.4064" layer="94"/>
-<wire x1="-0.635" y1="0.635" x2="-0.635" y2="0" width="0.4064" layer="94"/>
-<text x="-1.27" y="0" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="5.715" y="0" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="1" x="0" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="2" x="2.54" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="JP1E" prefix="JP" uservalue="yes">
-<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
-<gates>
-<gate name="A" symbol="JP2E" x="2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="JP1">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="atmel" urn="urn:adsk.eagle:library:105">
 <description>&lt;b&gt;AVR Devices&lt;/b&gt;&lt;p&gt;
 Configurable logic, microcontrollers, nonvolatile memories&lt;p&gt;
@@ -21349,32 +21285,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="-1.905" y="-3.175" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
-<symbol name="+09V" urn="urn:adsk.eagle:symbol:26995/1" library_version="2">
-<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="0" y1="0.635" x2="0" y2="1.905" width="0.1524" layer="94"/>
-<circle x="0" y="1.27" radius="1.27" width="0.254" layer="94"/>
-<text x="-1.905" y="3.175" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="+9V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND" urn="urn:adsk.eagle:component:27037/1" prefix="SUPPLY" library_version="2">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="GND" symbol="GND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="+9V" urn="urn:adsk.eagle:component:27042/1" prefix="SUPPLY" library_version="2">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="+09V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -28867,11 +28783,6 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="GND94" library="supply2" deviceset="GND" device=""/>
 <part name="C41" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
 <part name="GND24" library="supply2" deviceset="GND" device=""/>
-<part name="JP_5V" library="jumper" deviceset="JP1E" device="" value="+5V"/>
-<part name="P+17" library="supply1" deviceset="+5V" device=""/>
-<part name="GND95" library="supply2" deviceset="GND" device=""/>
-<part name="JP_9V" library="jumper" deviceset="JP1E" device="" value="+9V"/>
-<part name="GND96" library="supply2" deviceset="GND" device=""/>
 <part name="U8B" library="MK312parts" deviceset="LTC1661IMS8" device="" value="LTC1661"/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="20k"/>
@@ -28887,7 +28798,6 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100pF"/>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100pF"/>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100pF"/>
-<part name="SUPPLY11" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+9V" device=""/>
 <part name="BAT" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-02-PIN" device="-LONG-PAD" value="B2B-XH-A-GU"/>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="22uF"/>
 <part name="9V_REG" library="SamacSys_Parts" deviceset="LM2940IMP-9.0_NOPB" device="" value="LM2940IMP-9.0/NOPB"/>
@@ -28983,32 +28893,12 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <instance part="GND93" gate="GND" x="205.74" y="116.84" smashed="yes">
 <attribute name="VALUE" x="203.835" y="113.665" size="1.778" layer="96"/>
 </instance>
-<instance part="JP_5V" gate="A" x="129.54" y="78.74" smashed="yes" rot="R270">
-<attribute name="NAME" x="129.54" y="80.01" size="1.778" layer="95"/>
-<attribute name="VALUE" x="129.54" y="73.025" size="1.778" layer="96"/>
-</instance>
-<instance part="P+17" gate="1" x="119.38" y="78.74" smashed="yes" rot="MR270">
-<attribute name="VALUE" x="124.46" y="81.28" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="GND95" gate="GND" x="124.46" y="71.12" smashed="yes">
-<attribute name="VALUE" x="122.555" y="67.945" size="1.778" layer="96"/>
-</instance>
-<instance part="JP_9V" gate="A" x="99.06" y="78.74" smashed="yes" rot="R270">
-<attribute name="NAME" x="99.06" y="80.01" size="1.778" layer="95"/>
-<attribute name="VALUE" x="99.06" y="73.025" size="1.778" layer="96"/>
-</instance>
-<instance part="GND96" gate="GND" x="93.98" y="71.12" smashed="yes">
-<attribute name="VALUE" x="92.075" y="67.945" size="1.778" layer="96"/>
-</instance>
 <instance part="D1" gate="G$1" x="149.86" y="114.3" smashed="yes" rot="R90">
 <attribute name="NAME" x="149.3774" y="116.84" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="152.1714" y="116.84" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="SUPPLY8" gate="GND" x="149.86" y="99.06" smashed="yes">
 <attribute name="VALUE" x="147.955" y="95.885" size="1.778" layer="96"/>
-</instance>
-<instance part="SUPPLY11" gate="G$1" x="86.36" y="78.74" smashed="yes" rot="R90">
-<attribute name="VALUE" x="83.185" y="76.835" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="BAT" gate="-2" x="116.84" y="101.6" smashed="yes">
 <attribute name="NAME" x="119.38" y="100.838" size="1.524" layer="95"/>
@@ -29053,18 +28943,6 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <segment>
 <pinref part="C11" gate="G$1" pin="2"/>
 <pinref part="GND56" gate="GND" pin="GND"/>
-</segment>
-<segment>
-<pinref part="JP_5V" gate="A" pin="2"/>
-<pinref part="GND95" gate="GND" pin="GND"/>
-<wire x1="124.46" y1="73.66" x2="124.46" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="76.2" x2="127" y2="76.2" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="JP_9V" gate="A" pin="2"/>
-<wire x1="96.52" y1="76.2" x2="93.98" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="GND96" gate="GND" pin="GND"/>
-<wire x1="93.98" y1="76.2" x2="93.98" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="D1" gate="G$1" pin="A"/>
@@ -29141,18 +29019,8 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="205.74" y1="129.54" x2="193.04" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="129.54" x2="193.04" y2="134.62" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="JP_5V" gate="A" pin="1"/>
-<pinref part="P+17" gate="1" pin="+5V"/>
-<wire x1="121.92" y1="78.74" x2="127" y2="78.74" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="+9V" class="2">
-<segment>
-<pinref part="SUPPLY11" gate="G$1" pin="+9V"/>
-<pinref part="JP_9V" gate="A" pin="1"/>
-<wire x1="88.9" y1="78.74" x2="96.52" y2="78.74" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="81.28" x2="205.74" y2="83.82" width="0.1524" layer="91"/>
