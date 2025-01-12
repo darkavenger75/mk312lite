@@ -46,8 +46,3 @@ The firmware has not been modified, for instructions see the "firmware" folder.
 The front panel goes directly on top of the PCB. Use washers on the pots to level the front panel as required.  
 Bottom closes with plain aluminum panel.  
 A simple 3D printed case - two halves which close by 4 pins or headless screws - can be found in the "case" directory. 
-
-## Error 20
-
-Some units may - more or less regularily - fail to start with "Error 20". The underlying reason is the firmware that is not tolerant againt sample variations in MOSFETs Q3, Q6.
-The "original" MK312BT has the same issues. The only reliable way to fix this is to adjust the values of resistors R32, R43 (100k). I recommend trying somewhat lower/higher values (e.g. 82k and 120k) and check if your units boots realiably then.   
