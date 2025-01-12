@@ -30531,7 +30531,7 @@ Source: www.epcos.com .. 01430148.pdf</description>
 <part name="R41" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
 <part name="R40" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100K"/>
 <part name="GND6" library="supply2" deviceset="GND" device=""/>
-<part name="Q1" library="MK312parts" deviceset="N-HEXFET-2D_?-*" device="SOT232" package3d_urn="urn:adsk.eagle:package:29522/2" technology="IRLL2705" value="IRFL024">
+<part name="Q1" library="MK312parts" deviceset="N-HEXFET-2D_?-*" device="SOT232" package3d_urn="urn:adsk.eagle:package:29522/2" technology="IRLL2705" value="ZXMN4A06GTA">
 <attribute name="ALTERNATIVE" value="IRL100HS"/>
 <attribute name="ALTERNATIVE2" value="IRLL2705"/>
 </part>
@@ -30551,8 +30551,8 @@ Source: www.epcos.com .. 01430148.pdf</description>
 <part name="R49" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
 <part name="GND12" library="supply2" deviceset="GND" device=""/>
 <part name="R52" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
-<part name="Q4" library="MK312parts" deviceset="N-HEXFET-2D_?-*" device="SOT232" package3d_urn="urn:adsk.eagle:package:29522/2" technology="IRLL2705" value="IRFL024"/>
-<part name="Q5" library="MK312parts" deviceset="N-HEXFET-2D_?-*" device="SOT232" package3d_urn="urn:adsk.eagle:package:29522/2" technology="IRLL2705" value="IRFL024"/>
+<part name="Q4" library="MK312parts" deviceset="N-HEXFET-2D_?-*" device="SOT232" package3d_urn="urn:adsk.eagle:package:29522/2" technology="IRLL2705" value="ZXMN4A06GTA"/>
+<part name="Q5" library="MK312parts" deviceset="N-HEXFET-2D_?-*" device="SOT232" package3d_urn="urn:adsk.eagle:package:29522/2" technology="IRLL2705" value="ZXMN4A06GTA"/>
 <part name="R50" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
 <part name="C40" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
 <part name="R44" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100K"/>
@@ -30696,7 +30696,7 @@ Source: www.epcos.com .. 01430148.pdf</description>
 <part name="P+18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="UART" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP1E" device="" package3d_urn="urn:adsk.eagle:package:15455/1"/>
 <part name="Q6" library="SamacSys_Parts" deviceset="IRFL9014TRPBF" device="" value="BSP170PH6327"/>
-<part name="Q2" library="MK312parts" deviceset="N-HEXFET-2D_?-*" device="SOT232" package3d_urn="urn:adsk.eagle:package:29522/2" technology="IRLL2705" value="IRFL024">
+<part name="Q2" library="MK312parts" deviceset="N-HEXFET-2D_?-*" device="SOT232" package3d_urn="urn:adsk.eagle:package:29522/2" technology="IRLL2705" value="ZXMN4A06GTA">
 <attribute name="ALTERNATIVE" value="IRL100HS"/>
 <attribute name="ALTERNATIVE2" value="IRLL2705"/>
 </part>
