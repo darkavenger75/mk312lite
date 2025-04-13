@@ -24,7 +24,7 @@ Assembly
 
 ## Parts ordering information
 
-You will in addition require all pin-through-hole parts, they are included in the BOM, though. Do not forget the buttom covers and knobs for the potentiometers. 
+You will in addition require all pin-through-hole parts, they are included in the BOM (V4), though. Do not forget the buttom covers and knobs for the potentiometers. 
 In addition, you will have to order
 - A 12V 2Ah LiFePo4 4-cell battery with BMS and connector matching the one you used on the board. I got mine from Eremit in Germany. You can use a 3-cell LiPo battery pack instead (there is a LDO voltage regulator on the 9V rail), but the R5/R6 voltage divider must be adjusted to avoid incorrect low battery warning/shutdown.
 - A matching external CHARGER for your battery pack with 5.5/2.1 mm connector, center positive. Do NOT just connect a power supply without current limiter.   
