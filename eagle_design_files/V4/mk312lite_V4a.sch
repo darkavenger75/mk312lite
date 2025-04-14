@@ -30397,10 +30397,10 @@ Source: www.epcos.com .. 01430148.pdf</description>
 <part name="R12" library="JLC PCB Basic Parts_loc" deviceset="R_" device="_0805" package3d_urn="urn:adsk.eagle:package:23553/2" technology="100R"/>
 <part name="F1" library="varistor" library_urn="urn:adsk.eagle:library:410" deviceset="VARISTOR" device="CN1812" package3d_urn="urn:adsk.eagle:package:30610/1" value="SMD1812P110TF"/>
 <part name="IC1" library="Eagle-JeeLabs" deviceset="LM2674" device=""/>
-<part name="L1" library="MK312parts" deviceset="SMNR4030-151MT" device="" package3d_urn="urn:adsk.eagle:package:14501/1" value="68uH"/>
+<part name="L1" library="MK312parts" deviceset="SMNR4030-151MT" device="" package3d_urn="urn:adsk.eagle:package:14501/1" value="47uH"/>
 <part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="S1M" device="" package3d_urn="urn:adsk.eagle:package:43460/3" value="SS14"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
+<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10nF"/>
 <part name="SUPPLY11" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="22uF"/>
